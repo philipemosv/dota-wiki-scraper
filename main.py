@@ -7,7 +7,8 @@ from tags import tags
 
 def get_values(tag):
     """Get the values of a tag."""
-    found_tag = soup.find_all(tag['tag'])[tag['index']]
+    found_tag = soup.find(
+        lambda t: t.name == tag['tag'] and t.text.lower() == tag['text'])
     found_tag_siblings = found_tag.find_next_siblings()
     values = []
     for tag_sibling in found_tag_siblings:
