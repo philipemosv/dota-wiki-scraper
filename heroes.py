@@ -54,6 +54,7 @@ heroes = [
     "Luna",
     "Lycan",
     "Magnus",
+    "Marci",
     "Mars",
     "Medusa",
     "Meepo",
@@ -241,5 +242,6 @@ url_heroes = [
     'Pangolier',
     'Grimstroke',
     'Mars',
+    'Marci',
     'Muerta'
 ]
