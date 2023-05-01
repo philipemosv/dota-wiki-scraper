@@ -14,12 +14,8 @@ def get_values(tag):
     for tag_sibling in found_tag_siblings:
         if tag_sibling.name == tag['end_tag']:
             break
-        if tag['tag'] == 'h3':
-            if tag_sibling.string is not None and len(tag_sibling.string) < 30:
-                values.append(tag_sibling.string)
-        else:
-            if tag_sibling.text is not None:
-                values.append(tag_sibling.text)
+        if tag_sibling.text is not None:
+            values.append(tag_sibling.text)
     return values
 
 
