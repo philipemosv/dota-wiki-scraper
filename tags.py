@@ -1,38 +1,34 @@
 tags = {
     "heroes_bad": {
-        'tag': 'h2',
-        'text': 'bad against...',
+        'id': 'Bad_against...',
         'end_tag': 'h3'
     },
     "others_bad": {
-        'tag': 'h3',
-        'text': '',
+        'id': 'Others',
         'end_tag': 'h3'
     },
     "items_bad": {
-        'tag': 'h3',
+        'id': 'Items',
         'end_tag': 'h2'
     },
     "heroes_good": {
-        'tag': 'h2',
-        'text': 'good against...',
+        'id': 'Good_against...',
         'end_tag': 'h3'
     },
     "others_good": {
-        'tag': 'h3',
+        'id': 'Others_2',
         'end_tag': 'h3'
     },
     "items_good": {
-        'tag': 'h3',
+        'id': 'Items_2',
         'end_tag': 'h2'
     },
     "heroes_well": {
-        'tag': 'h2',
-        'text': 'works well with...',
+        'id': 'Works_well_with...',
         'end_tag': 'h3'
     },
     "others_well": {
-        'tag': 'h3',
+        'id': 'Others_3',
         'end_tag': 'h3'
     },
     "items_well": {
