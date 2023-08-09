@@ -1,7 +1,7 @@
 tags = {
     "heroes_bad": {
         'id': 'Bad_against...',
-        'end_tag': 'h3'
+        'end_tag': 'h2'
     },
     "others_bad": {
         'id': 'Others',
@@ -13,7 +13,7 @@ tags = {
     },
     "heroes_good": {
         'id': 'Good_against...',
-        'end_tag': 'h3'
+        'end_tag': 'h2'
     },
     "others_good": {
         'id': 'Others_2',
